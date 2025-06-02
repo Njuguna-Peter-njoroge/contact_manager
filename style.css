@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+     background: rgb(243, 240, 240); 
+     font-size: 20px;
+}
+
+.container{
+background: rgb(3, 3, 22);
+border-radius: 10px;
+color: white;
+display: flex;
+margin: 40px;
+}
+
+.top-container{
+      display: flex;
+      justify-content: space-between;
+}
+.top-container .left{
+      margin-top: 30px;
+      margin-left: 20px;
+}
+.left h1{
+      color: aqua;
+}
+.top-container .right{
+      display: flex;
+      margin-right: 20px;
+}
+.right .icons{
+ font-size: 30px;
+
+
+}
+.menu-icons{
+      display: grid;
+      padding: 20px;
+      display: none;
+}
+.menu-icons ion-icon{
+      padding: 10px;
+      
+}
+.bottom-container{
+      height: 60vh;
+      width: 80%;
+      margin: 10px 20px;
+
+}
+
+
+form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+form input{
+      width: 50%;
+      height: 35px;
+      border-radius: 5px;
+}
+
+.submit{
+      background: aqua;
+      width: 40%;
+      height: 40px;
+      border-radius: 10px;
+      margin: 10px;
+ font-size: 20px;
+ border: 2px solid wheat;
+
+}
+.submit:hover{
+      background: white;
+     
+}
+
+.display-area{
+      color: #333;
+      background: white;
+      border-radius: 10px;
+      height: 100%;
+      width: 30%;
+      margin-right: 20px;
+      margin-top: 40px;
+}
+ul li{
+      list-style: none;
+}
+
+
+.contact-card {
+  list-style: none;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.contact-card li {
+  margin: 6px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-card button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-btn {
+  background-color:royalblue;
+  color: white;
+}
+
+.update-btn {
+  background-color:royalblue;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color:midnightblue ;
+}
+
+.update-btn:hover {
+  background-color:midnightblue ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
