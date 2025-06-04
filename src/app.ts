@@ -42,7 +42,7 @@ class UserService {
   }
 }
 
-// DOM Elements
+
 const addUser = new UserService();
 
 const addName = document.getElementById('add-name') as HTMLInputElement;
@@ -51,73 +51,6 @@ const addNumber = document.getElementById('add-number') as HTMLInputElement;
 const addAddress = document.getElementById('address') as HTMLInputElement;
 const button = document.getElementById('submit') as HTMLButtonElement;
 const contactListDisplay = document.querySelector('.display-area') as HTMLElement;
-
-// // Display users
-// function displayUser(): void {
-//   contactListDisplay.innerHTML = '';
-
-//   const allContacts = addUser.getAllContacts();
-
-//   if (allContacts.length === 0) {
-//     contactListDisplay.innerHTML = '<li>No contact found</li>';
-//     return;
-//   }
-
-//   const div = document.createElement('div');
-
-
-//   allContacts.forEach((user) => {
-
-//     const container = document.createElement('ul');
-//       container.className = "contact-card"; 
-// container.innerHTML= `
-
-//     <li>Name: ${user.name}</li>
-//     <li>Email:${user.email}</li>  
-//      <li>Phone: ${user.phonenumber}</li>
-//      <li>Address: ${user.address}</li>
-
-//           <button class="delete-btn">Delete</button>
-//       <button class="update-btn">Update</button>
-//      `;
-//     div.appendChild(container);
-//   });
-
-//   contactListDisplay.appendChild(div);
-// }
-
-// button.addEventListener('click', () => {
-//   const name = addName.value.trim();
-//   const email = addEmail.value.trim();
-//   const number = parseInt(addNumber.value.trim());
-//   const address = addAddress.value.trim();
-
-//   if (name && email && !isNaN(number)) {
-//     addUser.createUser(name, email, number, address);
-//     addName.value = '';
-//     addEmail.value = '';
-//     addNumber.value = '';
-//     addAddress.value = '';
-//     displayUser();
-//   } else {
-//     alert('Please fill all required fields.');
-//   }
-  
-// });
-
-// const deleteBtn=document.querySelector('.delete-btn') as HTMLButtonElement;
-
-
-
-
-// deleteBtn.addEventListener("click", () => {
-//   const id = parseInt(deleteTaskIdInput.value);
-//   if (!isNaN(id)) {
-//     UserService.deleteUser(id);
-//     deleteTaskIdInput.value = "";
-//     displayTaskList();
-//   }
-// });
 
 
 
